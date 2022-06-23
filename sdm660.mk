@@ -358,7 +358,8 @@ PRODUCT_COPY_FILES += \
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service.asus_sdm660-libperfmgr \
-    android.hardware.power.stats@1.0.vendor
+    android.hardware.power.stats@1.0.vendor \
+    vendor.qti.hardware.perf@2.2.vendor
 
 # Powerhint
 ifeq ($(EAS_POWERHINT_VARIANT), sdm636)
