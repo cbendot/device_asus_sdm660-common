@@ -11,15 +11,15 @@
   },
   {
     "remote": "github",
-    "repository": "mvaisakh/gcc-arm64",
-    "target_path": "prebuilts/gcc/linux-x86/aarch64/aarch64-elf",
-    "branch": "gcc-master"
+    "repository": "cbendot/gcc-aarch64",
+    "target_path": "prebuilts/gcc/linux-x86/aarch64/aarch64-buildroot-linux-gnu",
+    "branch": "main"
   },
   {
     "remote": "github",
-    "repository": "mvaisakh/gcc-arm",
-    "target_path": "prebuilts/gcc/linux-x86/arm/arm-eabi",
-    "branch": "gcc-master"
+    "repository": "cbendot/gcc-armv5",
+    "target_path": "prebuilts/gcc/linux-x86/arm/arm-buildroot-linux-gnueabi",
+    "branch": "main"
   },
   {
     "remote": "gitlab",
