@@ -1,6 +1,6 @@
 [
   {
-    "repository":  "android_kernel_asus_X01BD",
+    "repository":  "kernel_asus_sdm660",
     "target_path": "kernel/asus/sdm660"
   },
   {
@@ -8,23 +8,5 @@
     "repository": "ArrowOS-Devices/android_packages_apps_GCamGOPrebuilt",
     "target_path": "packages/apps/GCamGOPrebuilt",
     "branch": "arrow-12.1"
-  },
-  {
-    "remote": "github",
-    "repository": "cbendot/gcc-aarch64",
-    "target_path": "prebuilts/gcc/linux-x86/aarch64/aarch64-buildroot-linux-gnu",
-    "branch": "main"
-  },
-  {
-    "remote": "github",
-    "repository": "cbendot/gcc-armv5",
-    "target_path": "prebuilts/gcc/linux-x86/arm/arm-buildroot-linux-gnueabi",
-    "branch": "main"
-  },
-  {
-    "remote": "gitlab",
-    "repository": "arrowos-project/android_prebuilts_clang_host_linux-x86_clang-r450784e",
-    "target_path": "prebuilts/clang/host/linux-x86/clang-r450784e",
-    "branch": "master"
   }
 ]
